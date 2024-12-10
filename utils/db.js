@@ -2,10 +2,10 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 
 // For local MongoDD
-const mongoUrl = process.env.MONGO_URI_LOCAL;
+//const mongoUrl = process.env.MONGO_URI_LOCAL;
 
 // For MongoDB Atlas
-// const mongoUrl = process.env.MONGO_URI
+const mongoUrl = process.env.MONGO_URI
 
 const connectDB = async () => {
   try {
